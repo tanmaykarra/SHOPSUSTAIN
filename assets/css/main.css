@@ -512,7 +512,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
 }
 
 .top-header-area {
-  position: relative;
+  position: absolute;
   z-index: 999;
   width: 100%;
   padding: 25px 0;
@@ -598,7 +598,7 @@ nav.main-menu > ul li:last-child {
 
 .site-logo {
   float: left;
-  max-width: 150px;
+  max-width: 100px;
 }
 
 ul.sub-menu li:last-child {
@@ -2116,33 +2116,38 @@ a.video-play-btn {
   margin-bottom: 0px;
 }
 
-.shop-banner .sale-percent {
-  position: relative;
-  font-size: 60px;
-  font-weight: 700;
-  color: #F28123;
-}
-
-.shop-banner .sale-percent span {
-  position: relative;
-  font-size: 24px;
-  line-height: 1.1em;
-  color: #051922;
-  font-weight: 400;
-  text-align: center;
-  margin-right: 10px;
-  display: inline-block;
-}
-
 /* -----------------------------------------------------------------------------
 
 # About Page Styles
 
 ----------------------------------------------------------------------------- */
+.featureed-bg {
+  position: relative;
+  margin: 150px 0;
+}
+
+
+.featureed-bg:after {
+  background-image: url(../img/featureed-bg.jpg);
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  content: "";
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5px;
+  -webkit-box-shadow: 0 0 20px #cacaca;
+  box-shadow: 0 0 20px #cacaca;
+  border-bottom-left-radius: 5px;
+}
+
 .feature-bg {
   position: relative;
   margin: 150px 0;
 }
+
 
 .feature-bg:after {
   background-image: url(../img/feature-bg.jpg);
@@ -2172,9 +2177,18 @@ a.video-play-btn {
   background-image: url(../img/team/team-3.jpg);
 }
 
-.team-bg-4 {
-  background-image: url(../img/team/team-4.jpg);
+.unique-bg-1 {
+  background-image: url(../img/unique/INFLUENCER.jpg);
 }
+
+.unique-bg-2 {
+  background-image: url(../img/unique/CARBON.jpg);
+}
+
+.unique-bg-3 {
+  background-image: url(../img/unique/EDUCATIONAL.jpg);
+}
+
 
 .team-bg {
   height: 320px;

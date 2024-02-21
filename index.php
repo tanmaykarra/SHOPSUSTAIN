@@ -69,16 +69,16 @@
 										<li><a href="cart.html">Cart</a></li>
 									</ul>
 								</li>
-								<li><a href="education.html">Educational dashboard</a></li>
+								<li><a href="education.php">Educational dashboard</a></li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="mobile-hide search-bar-icon" href="DBMS_LOGIN\login.html"><i class="fas fa-user-circle"></i></a>
+										<a class="mobile-hide search-bar-icon" href="login.php"><i class="fas fa-user-circle"></i></a>
 									</div>
 								</li>
 							</ul>
 						</nav>
-						<a class="mobile-show search-bar-icon" href="DBMS_LOGIN\login.html"><i class="fas fa-user-circle"></i></a>
+						<a class="mobile-show search-bar-icon" href="DBMS_LOGIN\login.php"><i class="fas fa-user-circle"></i></a>
 						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>
