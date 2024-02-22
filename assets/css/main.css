@@ -1466,6 +1466,8 @@ input[type="submit"] {
   background-image: url(../img/hero-bg-3.jpg);
 }
 
+
+
 .homepage-slider {
   height: 100%;
 }
@@ -2173,7 +2175,15 @@ a.video-play-btn {
 }
 
 .team-bg-4 {
-  background-image: url(../img/team/team-4.jpg);
+  background-image: url(../img/team/team-4.png);
+}
+
+.team-bg-5 {
+  background-image: url(../img/team/team-5.png);
+}
+
+.team-bg-6 {
+  background-image: url(../img/team/team-6.png);
 }
 
 .team-bg {
