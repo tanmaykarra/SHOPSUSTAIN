@@ -212,7 +212,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>                                                
 <!-- end latest news -->
 
     <!-- footer -->
