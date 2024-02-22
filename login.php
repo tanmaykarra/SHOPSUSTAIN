@@ -9,7 +9,9 @@
     <title>Login</title>
 </head>
 <body>
-
+<video id="background-video" autoplay loop muted>
+  <source src="assets\img\background.mp4" type="video/mp4">
+</video>
     <div class="container">
         <div class="signin-signup">
         <form action="signin.php" method = "POST" class="sign-in-form">

@@ -58,9 +58,9 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li ><a href="index.php">Home</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="index.php">Home</a></li>
+								<li><a href="about.php">About</a></li>
+								<li><a href="contact.php">Contact</a></li>
 								<li><a href="shop.html">Shop</a>
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
@@ -69,14 +69,18 @@
 										<li><a href="cart.html">Cart</a></li>
 									</ul>
 								</li>
-								<li class="current-list-item"><a href="education.html">Educational dashboard</a></li>
+								<li class="current-list-item"><a href="education.php">Educational dashboard</a></li>
+								<li><a href="noticeboard.php">Event Noticeboard</a></li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+										<a class="mobile-hide search-bar-icon" href="login.php"><i class="fas fa-user-circle"></i></a>
 									</div>
 								</li>
 							</ul>
 						</nav>
+						<a class="mobile-show search-bar-icon" href="login.php"><i class="fas fa-user-circle"></i></a>
+						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>
 				</div>
@@ -230,7 +234,7 @@
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
 							<li>Christ University,Central Campus,Bangalore</li>
-							<li>support@ShopSustain.com</li>
+							<li>ShopSustain12@gmail.com</li>
 							<li>+91 9999738833</li>
 						</ul>
 					</div>
@@ -239,10 +243,10 @@
 					<div class="footer-box pages">
 						<h2 class="widget-title">Pages</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.php">About</a></li>
 							<li><a href="services.html">Shop</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.php">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -283,6 +287,7 @@
 		</div>
 	</div>
 	<!-- end copyright -->
+	
 	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>

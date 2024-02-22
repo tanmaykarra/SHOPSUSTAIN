@@ -142,7 +142,7 @@
 						</div>
 						<div class="contact-form-box">
 							<h4><i class="fas fa-address-book"></i> Contact</h4>
-							<p>Phone: +91 9999738833 <br> Email: support@ShopSustain.com</p>
+							<p>Phone: +91 9999738833 <br> Email: ShopSustain12@gmail.com</p>
 						</div>
 					</div>
 				</div>
