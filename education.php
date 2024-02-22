@@ -4,10 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Contact Us</title>
+	<title> Educational Dashboard</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -50,7 +49,7 @@
 					<div class="main-menu-wrap">
 						<!-- logo -->
 						<div class="site-logo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="assets/img/logo.png" alt="">
 							</a>
 						</div>
@@ -59,9 +58,9 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="index.php">Home</a></li>
+								<li ><a href="index.php">Home</a></li>
 								<li><a href="about.html">About</a></li>
-								<li class="current-list-item"><a href="contact.html">Contact</a></li>
+								<li><a href="contact.html">Contact</a></li>
 								<li><a href="shop.html">Shop</a>
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
@@ -70,7 +69,7 @@
 										<li><a href="cart.html">Cart</a></li>
 									</ul>
 								</li>
-								<li><a href="education.php">Educational dashboard</a></li>
+								<li class="current-list-item"><a href="education.html">Educational dashboard</a></li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
@@ -85,88 +84,138 @@
 		</div>
 	</div>
 	<!-- end header -->
-	
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Get 24/7 Support</p>
-						<h1>Contact us</h1>
+						<p></p>
+						<h1>Educational Dashboard</h1>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- end breadcrumb section -->
+	<!-- shop banner -->
+<section class="shop-banner">
+	<div class="container">
+		<h3> <br> Discover the benifits of using<span class="orange-text">Eco-friendly products</span></h3>
+		<br>
+		<a href="education.html" class="cart-btn btn-lg">Learn Now</a>
+	</div>
+</section>
+<!-- end shop banner -->
+	<br>
 
-	<!-- contact form -->
-	<div class="contact-from-section mt-150 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 mb-5 mb-lg-0">
-					<div class="form-title">
-						<h2>Any questions?</h2>
-					</div>
-				 	<div id="form_status"></div>
-					<div class="contact-form">
-						<form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
-							<p>
-								<input type="text" placeholder="Name" name="name" id="name">
-								<input type="email" placeholder="Email" name="email" id="email">
-							</p>
-							<p>
-								<input type="tel" placeholder="Phone" name="phone" id="phone">
-								<input type="text" placeholder="Subject" name="subject" id="subject">
-							</p>
-							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
-							<input type="hidden" name="token" value="FsWga4&@f6aw" />
-							<p><input type="submit" value="Submit"></p>
-						</form>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="contact-form-wrap">
-						<div class="contact-form-box">
-							<h4><i class="fas fa-map"></i> Shop Address</h4>
-							<p>Chirst University <br> Central Campus <br> India</p>
+<!-- featured section -->
+<div class="featureed-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="featured-text">
+					<h2 class="pb-3">Why use <span class="orange-text">Eco-friendly Products</span></h2>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 mb-4 mb-md-5">
+							<div class="list-box d-flex">
+								<div class="list-icon">
+									<i class="fa-solid fa-seedling"></i>
+								</div>
+								<div class="content">
+									<h3>Sustainability:</h3>
+									<p>Eco-friendly products promote resource conservation, ensuring a balance between present needs and future generations.</p>
+								</div>
+							</div>
 						</div>
-						<div class="contact-form-box">
-							<h4><i class="far fa-clock"></i> Shop Hours</h4>
-							<p>MON - SAT: 9 AM to 8 PM</p>
+						<div class="col-lg-6 col-md-6 mb-5 mb-md-5">
+							<div class="list-box d-flex">
+								<div class="list-icon">
+									<i class="fa-solid fa-solar-panel"></i>
+								</div>
+								<div class="content">
+									<h3>Pollution Reduction:</h3>
+									<p>They minimize environmental harm by using cleaner processes, reducing pollution in air, water, and soil.</p>
+								</div>
+							</div>
 						</div>
-						<div class="contact-form-box">
-							<h4><i class="fas fa-address-book"></i> Contact</h4>
-							<p>Phone: +91 9999738833 <br> Email: support@ShopSustain.com</p>
+						<div class="col-lg-6 col-md-6 mb-5 mb-md-5">
+							<div class="list-box d-flex">
+								<div class="list-icon">
+									<i class="fa-solid fa-suitcase-medical"></i>
+								</div>
+								<div class="content">
+									<h3>Health Conscious:</h3>
+									<p>These products prioritize human well-being, avoiding harmful chemicals and promoting a safer living environment.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="list-box d-flex">
+								<div class="list-icon">
+									<i class="fas fa-sync-alt"></i>
+								</div>
+								<div class="content">
+									<h3>Renewable Resources:</h3>
+									<p>Eco-friendly items encourage the use of renewable materials, contributing to sustainable resource management.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end contact form -->
+</div>
+<!-- end featured section -->
+<!-- latest news -->
+<div class="latest-news pt-150 pb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="section-title">	
+					<h3>Some Useful<span class="orange-text"> Links</span></h3>
+				</div>
+			</div>
+		</div>
 
-	<!-- find our location -->
-	<div class="find-location blue-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<p> <i class="fas fa-map-marker-alt"></i> Find Our Location</p>
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div class="single-latest-news">
+					<a href="https://youtu.be/_e4bkXkeJEI?si=XjqywkDRA1iPpYnT"><div class="latest-news-bg news-bg-1"></div></a>
+					<div class="news-text-box">
+						<h3>Importance of using eco-friendly products</h3>
+						<p class="excerpt">Sample text </p>
+						<a href="https://greenfeels.in/blogs/sustainability-basics/importance-of-eco-friendly-products" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-latest-news">
+					<a href="single-news.html"><div class="latest-news-bg news-bg-2"></div></a>
+					<div class="news-text-box">
+						<h3><a href="single-news.html">Topic-2</a></h3>
+						<p class="excerpt">Sample text 2</p>
+						<a href="https://www.globalgoals.org/" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+				<div class="single-latest-news">
+					<a href="single-news.html"><div class="latest-news-bg news-bg-3"></div></a>
+					<div class="news-text-box">
+						<h3><a href="single-news.html">Topic 3</a></h3>
+						<p class="excerpt">Sample text 3</p>
+						<a href="https://www.globalgoals.org/" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end find our location -->
+</div>
+<!-- end latest news -->
 
-	<!-- google map section -->
-	<div class="embed-responsive embed-responsive-21by9">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.584519175234!2d77.60360607409503!3d12.934404087377553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15392f6ea2f9%3A0x851befe3b3f1d0b0!2sCentral%20campus%2C%20Christ%20University!5e0!3m2!1sen!2sin!4v1708173133999!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="embed-responsive-item"></iframe>
-	</div>
-	<!-- end google map section -->
-
-
-	<!-- footer -->
+    <!-- footer -->
 	<div class="footer-area">
 		<div class="container">
 			<div class="row">
@@ -235,7 +284,6 @@
 	</div>
 	<!-- end copyright -->
 	
-	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
@@ -254,10 +302,9 @@
 	<script src="assets/js/jquery.meanmenu.min.js"></script>
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>
-	<!-- form validation js -->
-	<script src="assets/js/form-validate.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-	
+	<script src="https://kit.fontawesome.com/2d24a17650.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
