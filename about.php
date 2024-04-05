@@ -69,6 +69,7 @@
 								<li><a href="noticeboard.php">Event Noticeboard</a></li>
 								<li><a href="influencer.php">Influencer program</a></li>
 								<li><a href="calculator.php">Carbon Footprint Calculator</a></li>
+								<li><a href="calender.php">Custom Calender</a></li>	
 									</ul>
 								</li>
 								<li>
