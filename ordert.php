@@ -5,7 +5,7 @@ $rs1 = mysqli_query($con, "SELECT * FROM cart WHERE user_id = $_COOKIE[id]");
 $array = mysqli_fetch_all($rs1, MYSQLI_ASSOC);
 
 foreach($array as $value) {
-    $sql1 = "INSERT INTO orders (user_id, product_id, quantity, price) 
+    $sql1 = "INSERT INTO orders (user_id, product_id, quantity, unit_price) 
              VALUES ($_COOKIE[id], '{$value['product_id']}', '{$value['quantity']}', '{$value['price']}')";
     mysqli_query($con, $sql1);
 }
@@ -20,5 +20,5 @@ if(mysqli_query($con, $sql)) {
     echo "Something went wrong.";
 }
 
-mysqli_close($con)
+mysqli_close($con);
 ?>

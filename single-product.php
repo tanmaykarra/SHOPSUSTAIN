@@ -89,25 +89,6 @@
 	</div>
 	<!-- end header -->
 	
-	<!-- search area -->
-	<div class="search-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
-					<div class="search-bar">
-						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end search arewa -->
-	
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
@@ -149,11 +130,22 @@
 						<p class="single-product-pricing"><span></span>Rs.<?=$array[0]['price']?></p>
 						<p><?=$array[0]['Description']?></p>
 						<div class="single-product-form">
-							<form action="index.html">
-								<input type="number" placeholder="0">
-							</form>
-							<a href="cart.php" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-							<p><strong>Categories: </strong><?=$array[0]['category']?></p>
+    <form method="post" action = "cartdbsingle.php">
+        <input type="number" id="quantInput" name="quant" value="1" placeholder="1" >
+		<input type="number" id="id" name="id" placeholder="1" value="<?=$_GET['id']?>" hidden>
+		<br>
+        <!-- Hidden input to store product ID -->
+		<!-- <input type="submit"><a href="cartdb.php?product_id=<?//=$value['product_id']?>" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a> -->
+		<input type="submit" value="Add to Cart">
+    </form>
+    <!-- Link to add to cart -->
+	<!-- <form>
+	<a href="cartdb.php?product_id=<?=$value['product_id']?>" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+	</form> -->
+    <p><strong>Categories: </strong><?=$array[0]['category']?></p>
+</div>
+
+
 						</div>
 						
 					</div>

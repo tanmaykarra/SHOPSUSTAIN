@@ -113,6 +113,7 @@
 						  <div class="card single-accordion">
 						    <div class="card-header" id="headingOne">
 						      <h5 class="mb-0">
+								
 						        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 						          Billing Address
 						        </button>
@@ -268,8 +269,13 @@
 							</tbody>
 						</table>
 						<br>
+						<script>
+    function visitPage(){
+        window.location='ordert.php';
+    }
+</script>
 						<!-- <button class="update-btn2" id="checkout-btn" name = "submit" onclick="function()">Place Order</button> -->
-						<button class="update-btn2" id="checkout-btn" onclick="submitForms()">Place Order</button>
+						<button class="update-btn2" id="checkout-btn" onclick = "visitPage();" onclick="submitForms()">Place Order</button>
 
 		<script>
 		function submitForms() {
@@ -451,8 +457,6 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-	
-	
 	
 	
 	<!-- ajax -->
