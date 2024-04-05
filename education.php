@@ -69,6 +69,7 @@
 								<li><a href="noticeboard.php">Event Noticeboard</a></li>
 								<li><a href="influencer.php">Influencer program</a></li>
 								<li><a href="calculator.php">Carbon Footprint Calculator</a></li>
+								<li><a href="calender.php">Custom Calender</a></li>
 									</ul>
 								</li>
 								<li>
@@ -218,39 +219,6 @@
 	</div>
 </div>                                                
 <!-- end latest news -->
-<!-- Tips Section -->
-<div class="tip-container" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <div class="tip" style="width: calc(50% - 20px); margin-bottom: 20px; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);">
-        <img src="assets/img/tip/water.jpg" alt="Reduce Water Usage" style="width: 100%; height: auto;">
-        <div class="tip-content" style="padding: 20px;">
-            <h3 style="font-size: 24px; margin-bottom: 10px; color: #007BFF;">Tip #1: Reduce Water Usage</h3>
-            <p style="font-size: 16px; line-height: 1.6; margin-bottom: 0;">Fix leaks, install water-efficient appliances, and collect rainwater for outdoor use.</p>
-        </div>
-    </div>
-    <div class="tip" style="width: calc(50% - 20px); margin-bottom: 20px; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);">
-        <div class="tip-content" style="padding: 20px;">
-            <h3 style="font-size: 24px; margin-bottom: 10px; color: #007BFF;">Tip #2: Conserve Energy</h3>
-            <p style="font-size: 16px; line-height: 1.6; margin-bottom: 0;">Switch to LED bulbs, unplug electronics when not in use, and use natural light whenever possible.</p>
-        </div>
-        <img src="assets/img/tip/energy.jpg" alt="Conserve Energy" style="width: 100%; height: auto;">
-    </div>
-    <div class="tip" style="width: calc(50% - 20px); margin-bottom: 20px; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);">
-        <img src="assets/img/tip/plastic.jpg" alt="Reduce Single-Use Plastics" style="width: 100%; height: auto;">
-        <div class="tip-content" style="padding: 20px;">
-            <h3 style="font-size: 24px; margin-bottom: 10px; color: #007BFF;">Tip #3: Reduce Single-Use Plastics</h3>
-            <p style="font-size: 16px; line-height: 1.6; margin-bottom: 0;">Avoid plastic bags, bottles, and straws. Opt for reusable alternatives like metal water bottles and cloth bags.</p>
-        </div>
-    </div>
-    <div class="tip" style="width: calc(50% - 20px); margin-bottom: 20px; border-radius: 10px; overflow: hidden; background-color: #fff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);">
-        <div class="tip-content" style="padding: 20px;">
-            <h3 style="font-size: 24px; margin-bottom: 10px; color: #007BFF;">Tip #4: Choose Sustainable Transportation</h3>
-            <p style="font-size: 16px; line-height: 1.6; margin-bottom: 0;">Walk, bike, carpool, or use public transportation to reduce carbon emissions from vehicles.</p>
-        </div>
-        <img src="assets/img/tip/trans.jpg" alt="Sustainable Transportation" style="width: 100%; height: auto;">
-    </div>
-    <!-- Add more tips with images -->
-</div>
-<!-- End Tips Section -->
 <br>
 <style>
     /* Your custom CSS styles for the tips page */
