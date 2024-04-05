@@ -68,6 +68,7 @@
 								<li><a href="noticeboard.php">Event Noticeboard</a></li>
 								<li><a href="influencer.php">Influencer program</a></li>
 								<li><a href="calculator.php">Carbon Footprint Calculator</a></li>
+								<li><a href="calender.php">Custom Calender</a></li>		
 									</ul>
 								</li>
 								<li>
@@ -204,112 +205,7 @@
         margin-top: 5px; /* Add spacing between date and event name */
     }
 </style>
-<div class="mt-150">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 offset-lg-2 text-center">
-				<div class="section-title">
-					<h3>Know about our <span class="orange-text">Sales and Offers</span></h3>
-					<!-- Updated paragraph content -->
-					<!-- Updated paragraph content -->
-<p>Discover our exclusive sales and offers for January 2024. Dive into a world of savings with our carefully curated selection of eco-friendly products.Don't miss out on these limited-time deals—explore eco-friendly products at unbeatable prices .  Take advantage of these eco-friendly bargains today!</p>
 
-				</div>
-			</div>
-		</div>
-    </div>
-</div>
-		<br>		
-<div class="calendar-container">
-        <h1 class="calendar-header">Custom Calendar</h1>
-        <div>
-            <label for="month">Month:</label>
-            <input type="number" id="month" min="1" max="12" value="1">
-            <label for="year">Year:</label>
-            <input type="number" id="year" min="1900" max="2100" value="2022">
-            <button onclick="generateCalendar()">Generate Calendar</button>
-        </div>
-        <table class="calendar-table" id="calendarTable">
-            <thead>
-                <tr>
-                    <th>Sun</th>
-                    <th>Mon</th>
-                    <th>Tue</th>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                </tr>
-            </thead>
-            <tbody id="calendarBody">
-                
-            </tbody>
-        </table>
-    </div>
-<script>
-    // Important environmental days
-    const environmentalDays = [
-		{ month: 1, day: 2, event: 'Anniversery Sale' },
-        { month: 4, day: 22, event: 'Earth Day' },
-		{ month: 6, day: 2, event: 'World Environmental Day' },
-		{ month: 5, day: 20, event: 'World Bee Day' },
-		{ month: 4, day: 20, event: 'Earth Day sale Starts' },
-		{ month: 4, day: 25, event: 'Last Day of sale' },
-        // Add more events as needed
-    ];
-
-    function generateCalendar() {
-        const month = parseInt(document.getElementById('month').value);
-        const year = parseInt(document.getElementById('year').value);
-        const daysInMonth = new Date(year, month, 0).getDate();
-        const firstDay = new Date(year, month - 1, 1).getDay();
-
-        const calendarBody = document.getElementById('calendarBody');
-        calendarBody.innerHTML = '';
-
-        let dateCounter = 1;
-
-        for (let i = 0; i < 6; i++) {
-            const row = document.createElement('tr');
-
-            for (let j = 0; j < 7; j++) {
-                const cell = document.createElement('td');
-
-                if (i === 0 && j < firstDay) {
-                    // Empty cells before the first day of the month
-                    cell.textContent = '';
-                } else if (dateCounter > daysInMonth) {
-                    // Empty cells after the last day of the month
-                    cell.textContent = '';
-                } else {
-                    cell.textContent = dateCounter;
-
-                    // Check if the current date has an environmental event
-                    const event = environmentalDays.find(event => event.month === month && event.day === dateCounter);
-                    if (event) {
-                        cell.classList.add('highlight');
-                        // Display the event name below the date
-                        const eventLabel = document.createElement('div');
-                        eventLabel.textContent = event.event;
-                        cell.appendChild(eventLabel);
-                    }
-
-                    dateCounter++;
-                }
-
-                row.appendChild(cell);
-            }
-
-            calendarBody.appendChild(row);
-        }
-    }
-document.getElementById('month').value = 1; // January
-document.getElementById('year').value = 2024; // 2024
-
-// Call the generateCalendar function after setting default values
-generateCalendar();
-</script>
-<br>
 <br>
 <br>
 	<section>
